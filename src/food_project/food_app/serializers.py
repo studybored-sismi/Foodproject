@@ -1,7 +1,7 @@
 from rest_framework import serializers
 #from . import models
 from food_app.models import Question, Food
-#from . models import Question
+#from food_app.models import Question
 
 class QuestionSerializer(serializers.ModelSerializer):
    class Meta:
